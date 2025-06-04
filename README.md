@@ -1,2 +1,2 @@
 # My-FY-projects
-Its my first repository .
+Its My First Repository.
