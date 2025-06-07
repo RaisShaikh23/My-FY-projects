@@ -11,6 +11,7 @@ Users can choose items from a menu, view a detailed bill, and get the current da
 - Displays a menu of 18 dishes with prices
 - Allows users to select meals by number
 - Handles invalid inputs gracefully
+- Instead of Quantity i use pandas(groupby) method to add specific dish multiple time
 - Calculates and displays:
   - Ordered meals!
   - Total bill
