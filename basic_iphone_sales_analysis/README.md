@@ -40,6 +40,9 @@ This project focuses on analyzing and visualizing sales data for iPhone products
 4. **Correlation Between Sale Price, MRP & Discount**
    - 📈 **Type:** Scatter Plot with Trendline
    - Shows how `Sale Price` and `MRP` rise together, with discounts increasing as well — indicating a **positive correlation**.
+# Graph Image #
+fig 1 image :
+![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/808771bb2be21379fac3a2498baa2ab4c204df67/basic_iphone_sales_analysis/Screenshot%202025-06-09%20020425.png)
 
 ## 📌 Conclusion
 
