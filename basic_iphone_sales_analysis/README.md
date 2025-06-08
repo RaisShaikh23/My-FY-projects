@@ -47,6 +47,8 @@ fig 2 image :
 ![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/37de5e4aeebcd5c6b5b2ec0c22b4132ae95f5dba/basic_iphone_sales_analysis/Screenshot%202025-06-09%20021332.png)
 fig 3 image :
 ![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/cea10b88b8a310224614448c0ec6a165933b3e76/basic_iphone_sales_analysis/Screenshot%202025-06-09%20022320.png)
+fig 4 image :
+![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/885d95b161ec784c455c9e4e51ebdeb3f3e2a1bd/basic_iphone_sales_analysis/Screenshot%202025-06-09%20022959.png)
 ## 📌 Conclusion
 
 This project offers a compact yet insightful analysis of iPhone product data. With interactive visualizations and clear trends, it’s a handy tool for understanding product popularity, pricing behavior, and customer interest.
