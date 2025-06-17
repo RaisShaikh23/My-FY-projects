@@ -1,1 +1,1 @@
-Bankong system project
+Banking system porject
