@@ -1,0 +1,17 @@
+**Welcome To Our Bank**
+
+Enter Account No :- rs0230
+Enter Pin Here:- 1234
+
+Account 101_account.csv Exist
+Password Verified
+
+Following Command Will Guide U:
+1. Create Account
+2. Credit Balance
+3. Debit
+4. Total Balance
+
+Enter Query Here :- 2
+Enter Credit Amount: 500
+₹500 Credited To Your Account
