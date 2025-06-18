@@ -1,69 +1,68 @@
-# 🏦 Bank Account Management System (Console-Based)
+# 💳 Banking System - Python CLI Project
 
-This project is a simple **console-based bank account management system** written in Python. It allows users to create a bank account file, credit and debit money, and view transaction history. All transactions are saved to a local `.csv` file associated with the user's account number.
-
----
-
-## 🔧 Key Features
-
-- 📁 **Account File Creation:** Generates a new CSV file for each account based on account number.
-- 💰 **Credit Functionality:** Allows users to deposit money with date & time logged.
-- 🧾 **Debit Functionality:** Lets users withdraw money (only if sufficient balance is available).
-- 📜 **Transaction History:** Displays a list of all previous transactions and shows the current balance.
-- 🗃 **File-based Storage:** All transactions are stored in a persistent CSV file.
+A simple command-line based banking application written in Python. This project simulates a secure mini-banking system where users can create an account, credit/debit money, and check their account balance with basic password authentication.
 
 ---
+## 📌 Features
+
+- ✅ **Create Account**: User can create a new bank account with a secure password.
+- 🔒 **Password Protection**: Each account is protected with a personal PIN (password).
+- 🧾 **Unique Password File Per Account**: Each user’s password is stored in a dedicated `.txt` file named after their account number (e.g., `101_password.txt`).
+- 💰 **Credit Functionality**: Add funds to your account.
+- 💸 **Debit Functionality**: Withdraw money only if sufficient balance is available.
+- 📊 **Transaction Log**: All transactions are stored in a `.csv` file per user.
+- 📁 **File-Based Storage**: Account data is stored locally using text and CSV files.
+- 🕒 **Timestamps**: All operations display the current time.
+---
+## 🧱 File Structure
+
+When a user account is created, the system generates:
+
+- `account_no_account.csv`: Stores transaction history (credit/debit as signed integers).
+- `account_no_password.txt`: Stores the user's password for verification.
+
+➡️ **Each account has its own password file, uniquely named based on the account number**.
+Example:
+rs0230_account.csv ← stores transactions
+rs0230_password.txt ← stores password (linked to same account)
 
 ## ⚙️ How It Works
 
-1. **Create an Account:**
-   - A new `.csv` file named `<account_number>_account.csv` is created.
-   - If the file already exists, a message is shown to the user.
+1. User enters their **account number** and **PIN**.
+2. The program checks if their account and password files exist:
+   - If they don’t exist, it prompts them to create an account.
+   - If they exist, it verifies the PIN.
+3. A menu-driven interface allows the user to:
+   - `1`: Create Account
+   - `2`: Credit Balance
+   - `3`: Debit Balance
+   - `4`: View Final Balance & Transaction History
+   - Any other key: Exit
 
-2. **Credit Money:**
-   - Takes integer input for deposit amount.
-   - Appends the amount to the CSV file.
-   - Displays the credited amount and timestamp.
-
-3. **Debit Money:**
-   - Reads all previous transactions from the CSV file.
-   - Ensures the debit amount does not exceed available balance.
-   - Appends the negative amount to the file and confirms the debit.
-
-4. **View Final Summary:**
-   - Prints all transaction history.
-   - Shows the current account balance with the last update timestamp.
+All operations require password verification before proceeding.
 
 ---
 
-## ✅ Benefits
+## 🧠 Benefits
 
-- Beginner-friendly Python project.
-- No external libraries required.
-- File persistence ensures data is not lost between program runs.
-- Realistic logic for balance checking and transaction tracking.
+- Simple to understand and extend (perfect for beginners).
+- No external libraries — runs on core Python.
+- Teaches file handling, basic input validation, and secure access control.
+- Clear separation of functionalities in class methods.
 
 ---
 
 ## ⚠️ Limitations
 
-- No user authentication or password protection.
-- Data stored in plain text (`.csv`) without encryption.
-- No GUI — only terminal-based interactions.
-- Does not support multiple accounts being accessed simultaneously in the same session.
+- ❌ Passwords are stored in **plain text**, which is not secure for real-world use.
+- ❌ No encryption or database — uses basic file I/O.
+- ❌ No input sanitization for account number or password complexity.
+- ❌ Cannot handle concurrent access or multiple users at the same time.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 How To Run
 
-- 🐍 Python 3.x (Standard Library)
-- 💾 File I/O (`open()`, `write()`, `read()`)
-- ⏱ Time module (`time.ctime()` for timestamps)
-
----
-## Persional Experience :
-i was revising classes and def in python , than i saw 10 to 15 line basic bank system class in my previous codes .
-while  i was rewriting it , i just felt there should be some updation at that movement i just ran it.
-It take me 2 and half day to make some modification , even after my code need some more mmodification like 'password'.
-I will definetly try to make it more perfect more efficient.
-
+1. Make sure you have **Python 3.x** installed.
+2. Save the code in a `.py` file, e.g., `bank_system.py`.
+3. Run it in your terminal:
