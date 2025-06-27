@@ -38,7 +38,10 @@ The dataset includes over **8,000+ entries** of movies and web series released a
 * There are peak years in terms of content release frequency.
 
 ---
-Analysis Examles :
+### Analysis Examles :
+---
+Bar : Number Of Movies & Webseries
+
 
 ### 🧪 How to Run
 
