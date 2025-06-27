@@ -48,6 +48,10 @@ Pie Plot: Analysing Types Of Rated Movie/Webseries From Dataset
 
 ![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/5554789aaf26e7cacd1c0542266af76bfdbe226d/Pieplot2.png)
 
+Hist Plot: Analysing Duration Of No Of Movies From Dataset
+
+![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/cd8620553038349431392f2ec4633f5e5a83bb2a/histplot3.png)
+
 ---
 ### 🧪 How to Run
 
