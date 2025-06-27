@@ -62,7 +62,7 @@ Barh(vertical bar)plot: Top 5 Highest Movies/Webseries Released Country Wise
 
 Subplots: Top 5 Highest Movies/Webseries Released Years
 
-![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/817bc4a597f847471057cbda42e0629394487746/subplot6.png)
+![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/dab923cd4dc6cefabd0b1af411c9b6763fa56526/Simple_streaming_data_analysis_project/subplot6.png)
 
 ---
 ### 🧪 How to Run
