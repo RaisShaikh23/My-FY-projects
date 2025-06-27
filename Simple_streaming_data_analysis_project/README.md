@@ -56,6 +56,10 @@ Scatter Plot: Analysing No Of Movies/Webseries Released Throughtout The Yrs
 
 ![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/9413229c0599f82e7054ff7256057e8270083cc2/scatterplot4.png)
 
+Barh(vertical bar)plot: Top 5 Highest Movies/Webseries Released Country Wise
+
+![iamge alt](https://github.com/RaisShaikh23/My-FY-projects/blob/572356ccbe8aac962605b84c2ffbce10b81df36d/barh5.png)
+
 ---
 ### 🧪 How to Run
 
