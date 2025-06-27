@@ -42,8 +42,7 @@ The dataset includes over **8,000+ entries** of movies and web series released a
 
 Bar Plot: Number Of Movies & Webseries
 
-![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/17b1936e256edf350973ef1f6590b98461e5f918/Barplot1.png)
-
+![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/98be409587b0773c3ce4b15e2630e1aa27d14f99/Simple_streaming_data_analysis_project/Barplot1.png)
 Pie Plot: Analysing Types Of Rated Movie/Webseries From Dataset
 
 ![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/5554789aaf26e7cacd1c0542266af76bfdbe226d/Pieplot2.png)
