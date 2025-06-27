@@ -47,9 +47,10 @@ Bar Plot: Number Of Movies & Webseries
 Pie Plot: Analysing Types Of Rated Movie/Webseries From Dataset
 
 ![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/335f312fbdf7d5b1c50f4e900052fe35388ed0df/Simple_streaming_data_analysis_project/Pieplot2.png)
+
 Hist Plot: Analysing Duration Of No Of Movies From Dataset
 
-![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/cd8620553038349431392f2ec4633f5e5a83bb2a/histplot3.png)
+![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/58603307b34d79534c58089ba65cf0376e8b5e05/Simple_streaming_data_analysis_project/histplot3.png)
 
 Scatter Plot: Analysing No Of Movies/Webseries Released Throughtout The Yrs
 
