@@ -54,7 +54,7 @@ Hist Plot: Analysing Duration Of No Of Movies From Dataset
 
 Scatter Plot: Analysing No Of Movies/Webseries Released Throughtout The Yrs
 
-![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/9413229c0599f82e7054ff7256057e8270083cc2/scatterplot4.png)
+![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/478cd9675cfb7f17bd132053d42f31153b5c93bb/Simple_streaming_data_analysis_project/scatterplot4.png)
 
 Barh(vertical bar)plot: Top 5 Highest Movies/Webseries Released Country Wise
 
