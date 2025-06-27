@@ -64,7 +64,8 @@ The dataset includes over **8,000+ entries** of movies and web series released a
 * Add filtering options (by country, year, rating)
 
 ---
-
+Feel free to ⭐ the repo if you find it useful!
+---
 ### 🏷️ Tags
 
 `#Python` `#Matplotlib` `#DataVisualization` `#Pandas` `#StreamingAnalysis` `#SimpleProject`
