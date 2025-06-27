@@ -41,6 +41,7 @@ The dataset includes over **8,000+ entries** of movies and web series released a
 ### Analysis Examles :
 
 Bar : Number Of Movies & Webseries
+![image alt](https://github.com/RaisShaikh23/My-FY-projects/blob/17b1936e256edf350973ef1f6590b98461e5f918/Barplot1.png)
 
 ---
 ### 🧪 How to Run
