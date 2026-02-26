@@ -86,24 +86,25 @@ Pattern Mining	 mlxtend (Apriori)
 - Objective:
 - Identify most frequently enrolled courses per date.
 
-#  Student-Enrollment-Analytics/
-│
-├── raw_data/
-│   ├── C1.csv
-│   └── additional_data.csv
-│
-├── cleaned_data/
-│   └── Final_data.csv
-│
-├── sql/
-│   └── cleaning_queries.sql
-│
-├── python/
-│   └── analysis_pipeline.py
-│
-└── README.md
+# Student-Enrollment-Analytics/
+ │
+ ├── raw_data/
+ │   ├── C1.csv
+ │   └── additional_data.csv
+ │
+ ├── cleaned_data/
+ │   └── Final_data.csv
+ │
+ ├── sql/
+ │   └── cleaning_queries.sql
+ │
+ ├── python/
+ │   └── analysis_pipeline.py
+ │
+ └── README.md
 
 # Future Enhancements
 - Add model evaluation metrics
 - Build interactive dashboard (Streamlit)
+
 
