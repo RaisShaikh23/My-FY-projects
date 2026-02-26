@@ -2,7 +2,7 @@
 
 End-to-End Data Cleaning, Feature Engineering, Outlier Detection, Machine Learning & Association Mining using SQL + Python
 
-## 📌 Project Summary
+# 📌 Project Summary
 
 - Real-world datasets are messy.
 - This project simulates a production-level student enrollment dataset containing:
@@ -16,13 +16,13 @@ End-to-End Data Cleaning, Feature Engineering, Outlier Detection, Machine Learni
 - NULL course values
 - Extreme outliers
 
-# # # 🎯 Objective
+## 🎯 Objective
 - Build a complete analytics pipeline:
 - Raw Data → SQL Cleaning → Python Preprocessing → 
 - Outlier Removal → Visualization → 
 - Machine Learning → Association Rule Mining
 
-# # 🏗 Architecture Overview
+## 🏗 Architecture Overview
            ┌──────────────┐
            │ Raw CSV Data │
            └──────┬───────┘
@@ -106,3 +106,4 @@ Pattern Mining	 mlxtend (Apriori)
 # Future Enhancements
 - Add model evaluation metrics
 - Build interactive dashboard (Streamlit)
+
