@@ -1,0 +1,114 @@
+real-time-stock-analysis/
+│
+├── app/
+│   ├── dashboard.py
+│   ├── pages/
+│   │   ├── market_overview.py
+│   │   ├── eda.py
+│   │   ├── model_comparison.py
+│   │   ├── predictions.py
+│   │   └── ai_assistant.py
+│   │
+│   └── components/
+│       ├── charts.py
+│       ├── tables.py
+│       └── metrics.py
+│
+├── backend/
+│   ├── api.py
+│   ├── routes/
+│   │   ├── stock_routes.py
+│   │   ├── model_routes.py
+│   │   └── prediction_routes.py
+│   └── services/
+│       ├── stock_service.py
+│       ├── model_service.py
+│       └── prediction_service.py
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── fetch_data.py
+│
+├── preprocessing/
+│   ├── validation.py
+│   ├── cleaning.py
+│   └── preprocessing.py
+│
+├── eda/
+│   ├── analysis.py
+│   ├── statistics.py
+│   └── visualization.py
+│
+├── features/
+│   ├── engineering.py
+│   ├── technical_indicators.py
+│   └── lag_features.py
+│
+├── models/
+│   ├── arima.py
+│   ├── sarima.py
+│   ├── prophet_model.py
+│   ├── xgboost_model.py
+│   └── model_selector.py
+│
+├── forecasting/
+│   ├── horizon_config.py
+│   ├── multi_horizon.py
+│   ├── rolling_forecast.py
+│   └── forecast_engine.py
+│
+├── evaluation/
+│   ├── metrics.py
+│   ├── backtesting.py
+│   ├── model_comparison.py
+│   └── error_analysis.py
+│
+├── prediction/
+│   ├── predictor.py
+│   ├── error_calculator.py
+│   └── prediction_manager.py
+│
+├── database/
+│   ├── database.py
+│   ├── models.py
+│   └── crud.py
+│
+├── llm/
+│   ├── assistant.py
+│   ├── prompts.py
+│   └── ollama_client.py
+│
+├── config/
+│   ├── config.py
+│   └── model_config.py
+│
+├── models_store/
+│   ├── arima/
+│   ├── sarima/
+│   ├── prophet/
+│   └── xgboost/
+│
+├── tests/
+│   ├── test_data.py
+│   ├── test_preprocessing.py
+│   ├── test_features.py
+│   ├── test_models.py
+│   ├── test_forecasting.py
+│   ├── test_evaluation.py
+│   └── test_api.py
+│
+├── reports/
+│   ├── figures/
+│   ├── model_results/
+│   └── final_report/
+│
+├── logs/
+│   └── application.log
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── run.py

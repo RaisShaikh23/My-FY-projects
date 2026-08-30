@@ -1,0 +1,16 @@
+pandas
+numpy
+yfinance
+scikit-learn
+statsmodels
+prophet
+xgboost
+plotly
+streamlit
+fastapi
+uvicorn
+sqlalchemy
+python-dotenv
+joblib
+pytest
+requests
