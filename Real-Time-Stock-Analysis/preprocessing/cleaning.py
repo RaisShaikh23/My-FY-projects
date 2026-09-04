@@ -109,10 +109,7 @@ def remove_invalid_values(
 
         if column in data.columns:
 
-            data.loc[
-                data[column] <= 0,
-                column,
-            ] = np.nan
+            data.loc[data[column] <= 0,column,] = np.nan
 
     if "Volume" in data.columns:
 
@@ -141,10 +138,7 @@ def remove_ohlc_inconsistencies(
         "Close",
     ]
 
-    if all(
-        column in data.columns
-        for column in required_ohlc
-    ):
+    if all(column in data.columns for column in required_ohlc):
 
         invalid_rows = (
             (data["High"] < data["Low"])
